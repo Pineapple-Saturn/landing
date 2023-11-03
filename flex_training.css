@@ -1,0 +1,72 @@
+/*Header*/
+.Container1{
+    display: flex;
+    flex-grow: 3;
+    align-items: center;
+    
+}
+.MENU{
+    display:flex; 
+    flex-direction:row;
+    justify-content: space-evenly;
+    
+}
+.HEADER{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+   
+}
+.HEADER-LOGO{
+    display:flex; 
+    flex-direction:row;
+    align-items:center;
+    
+}
+.LOGO-png{
+    margin-right: 40px;
+}
+.HEADER-MENU{
+   flex-grow: 3;
+
+}
+/*cards*/
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+/*fotter*/
+.FOTTER_ROW{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 3;
+    align-items: center;
+}
+.FOTTER_LOGO{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+.seargh{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    align-items: center;
+}
+.footer_seargh_imput{
+    height: 40px;
+    flex-grow: 3;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.footer_seargh_button{
+    height: 40px;
+    flex-grow: 2;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
